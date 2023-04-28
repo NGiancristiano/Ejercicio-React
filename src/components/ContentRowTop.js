@@ -1,10 +1,8 @@
 import React from "react";
 
-import MoviesinDB from "./MoviesinDB";
-import TotalAwards from "./TotalAwards";
-import ActorsQuantity from "./ActorsQuantity";
 import LastMovieinDB from "./LastMovieinDB";
 import GenresinDB from "./GenresinDB";
+import ContentRowCard from "./ContentRowCard";
 
 function ContentRowTop () {
     return (
@@ -17,14 +15,7 @@ function ContentRowTop () {
 				
 					{/*<!-- Content Row Movies-->*/}
 					<div className="row">
-                        {/*<!-- Movies in Data Base -->*/}
-						<MoviesinDB/>
-
-						{/*<!-- Total awards -->*/}
-						<TotalAwards/>
-
-						{/*<!-- Actors quantity -->*/}
-						<ActorsQuantity/>
+                        <ContentRowCard/>
 					</div>
 					{/*<!-- End movies in Data Base -->*/}
 					
